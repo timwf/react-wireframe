@@ -21,7 +21,7 @@ function App() {
        </WireNavBar>
 
        <WireNavBar >
-          <WireNavbarLogo />  
+          <WireNavbarLogo companyName="Logo Name"/>  
           <WireNavbarLink linkTag="About"/>
           <WireNavbarLink linkTag="Services" />
           <WireNavbarLink linkTag="Contact" />

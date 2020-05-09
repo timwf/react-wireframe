@@ -24,7 +24,7 @@ Default Props -
 
 
 ## Nav Bar
-![Image of nav](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/nav.png)
+![Image of nav](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/navbar.png)
 
        <WireNavBar dark>
           <WireNavbarLogo />  
@@ -36,7 +36,7 @@ Default Props -
        </WireNavBar>
 
        <WireNavBar >
-          <WireNavbarLogo />  
+          <WireNavbarLogo companyName="Logo Name"/>  
           <WireNavbarLink linkTag="About"/>
           <WireNavbarLink linkTag="Services" />
           <WireNavbarLink linkTag="Contact" />
