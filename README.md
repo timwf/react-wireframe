@@ -2,7 +2,7 @@
 
 ## Concept
 
-Create wire frames in record time with reusable components libary
+Create wire frames in record time with reusable components library
 
 
 ### Button
