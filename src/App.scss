@@ -1,0 +1,18 @@
+
+* {
+    font-family: 'Delius Unicase', cursive;
+    letter-spacing: 0.2rem;
+    color: black;
+}
+
+.nav-bar{
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    padding: .5rem 1rem;
+    background-color: rgb(211, 211, 211);
+    a {
+        margin-right: 1rem;
+        font-size: 20px;
+       
+    }
+}
