@@ -19,6 +19,16 @@ function App() {
           <WireNavbarLink linkTag="Extra" />
           <Button btnName="Contact"/>
        </WireNavBar>
+
+       <WireNavBar >
+          <WireNavbarLogo />  
+          <WireNavbarLink linkTag="About"/>
+          <WireNavbarLink linkTag="Services" />
+          <WireNavbarLink linkTag="Contact" />
+          <WireNavbarLink linkTag="Extra" />
+          <Button btnName="Contact"/>
+       </WireNavBar>
+
        <Button primary btnName="Contact"/>
        <Button btnName="About"/>
     </div>
