@@ -5,15 +5,20 @@ import { Navbar, Nav, NavDropdown} from 'react-bootstrap'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import WireNavbarLogo from './components/WireNavbarLogo';
+import WireNavbarLink from './components/WireNavbarLink';
 
 function App() {
   return (
     <div className="App">
-        <WireNavBar dark>
-          <WireNavbarLogo />          
-        </WireNavBar>
+       <WireNavBar dark>
+          <WireNavbarLogo />  
+          <WireNavbarLink linkTag="About"/>
+          <WireNavbarLink linkTag="Services" />
+          <WireNavbarLink linkTag="Contact" />
+       </WireNavBar>
     </div>
   );
 }
+
 
 export default App;

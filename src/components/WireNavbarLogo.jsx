@@ -2,12 +2,12 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Logo = styled.a`
-    background: ${props => props.dark ? "green" : "yellow"};
+    color: ${props => props.dark ? "white" : "black"};
     `;
 
 WireNavbarLogo.defaultProps = {
     companyName: "WireFrame",
-    dark: true
+    dark: false
   
 }
 
@@ -16,7 +16,7 @@ function WireNavbarLogo(props) {
     
     return (
         <div>            
-            <Logo href="#">{props.companyName}</Logo>
+            <Logo dark={props.dark} href="#">{props.companyName}</Logo>
         </div>
     )
 }

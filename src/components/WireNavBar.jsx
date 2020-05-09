@@ -1,8 +1,8 @@
-import React from 'react'
+import React, {} from 'react'
 import styled from 'styled-components'
 
 const Nav = styled.div`
-    background: ${props => props.dark ? "black" : "white"};
+    background: ${props => props.dark ? "grey" : "white"};
     `;
 
 
@@ -15,9 +15,11 @@ export default function WireNavBar(props) {
     console.log(props);
     
     return (
+        <div>
         <Nav dark={props.dark} className="nav-bar">
-            {React.cloneElement(props.children)}
-
+             {React.Children.map(props.children, (child => React.cloneElement(child, { dark: props.dark })))}
         </Nav>
+        </div>
+
     )
 }

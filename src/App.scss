@@ -6,13 +6,20 @@
 }
 
 .nav-bar{
+    display: flex;
     flex-flow: row nowrap;
     justify-content: flex-start;
     padding: .5rem 1rem;
     background-color: rgb(211, 211, 211);
+    align-items: center;
     a {
         margin-right: 1rem;
         font-size: 20px;
        
+    }
+    .nav-link{
+        margin: 0;
+        font-size: 12px;
+        padding: 0.5rem 0.8rem;
     }
 }
