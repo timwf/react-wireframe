@@ -4,6 +4,9 @@
   
     color: black;
 }
+body{
+    background-color:rgb(243, 243, 243) !important;
+}
 
 .nav-bar{
     display: flex;
@@ -16,16 +19,22 @@
     a {
         margin-right: 1rem;
         font-size: 20px;
-       
+       white-space: nowrap;
     }
     .nav-link{
         margin: 0;
-        font-size: 12px;
+        font-size: 14px;
         padding: 0.5rem 0.8rem;
     }
     .logo-container{
         height: auto;
     }
+}
+
+.nav-items-container{
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
 }
 
 .wireframe-btn{
