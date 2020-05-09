@@ -7,15 +7,14 @@ const Logo = styled.a`
 
 WireNavbarLogo.defaultProps = {
     companyName: "WireFrame",
-    dark: false
-  
+    dark: false  
 }
 
 function WireNavbarLogo(props) {
     console.log(props);
     
     return (
-        <div>            
+        <div className="logo-container">            
             <Logo dark={props.dark} href="#">{props.companyName}</Logo>
         </div>
     )
