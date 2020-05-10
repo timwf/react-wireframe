@@ -27,26 +27,29 @@ Default Props -
 ![Image of nav](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/navbar.png)
 
        <WireNavBar dark>
-       <WireNavBar dark>
-          <WireNavbarLogo />  
-          <NavItemsContainer>
-            <WireNavbarLink linkTag="About"/>
-            <WireNavbarLink linkTag="Services" />
-            <WireNavbarLink linkTag="Contact" />
-            <WireNavbarLink linkTag="Extra" />
-            <Button btnName="Contact"/>
-          </NavItemsContainer>
+       <Container>
+          <WireNavbarLogo />         
+            <NavItemsContainer>
+              <WireNavbarLink linkTag="About"/>
+              <WireNavbarLink linkTag="Services" />
+              <WireNavbarLink linkTag="Contact" />
+              <WireNavbarLink linkTag="Extra" />
+              <Button btnName="Contact"/>
+            </NavItemsContainer>
+          </Container>
        </WireNavBar>
 
        <WireNavBar >
-       <WireNavbarLogo companyName="Logo Name"/>  
-          <NavItemsContainer right >
-            <WireNavbarLink linkTag="About"/>
-            <WireNavbarLink linkTag="Services" />
-            <WireNavbarLink linkTag="Contact" />
-            <WireNavbarLink linkTag="Extra" />
-            <Button btnName="Contact"/>
-          </NavItemsContainer>
+         <Container>
+          <WireNavbarLogo companyName="Logo Name"/>  
+            <NavItemsContainer right >
+              <WireNavbarLink linkTag="About"/>
+              <WireNavbarLink linkTag="Services" />
+              <WireNavbarLink linkTag="Contact" />
+              <WireNavbarLink linkTag="Extra" />
+              <Button primary btnName="Contact"/>
+            </NavItemsContainer>
+         </Container>
        </WireNavBar>
        
 
@@ -64,3 +67,19 @@ Default Props -
         linkTag: "Item",
         dark: false  
     }
+
+
+#### Media Placeholders
+
+![Image of media placeholder](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/media-placeholder.png)
+
+    <Container>
+      <WireRow>
+        <WireCol >
+        <MediaPlaceholder />
+        </WireCol>  
+        <WireCol >
+        <MediaPlaceholder video caption="A caption if you want"/>
+        </WireCol>   
+      </WireRow>
+    </Container>

@@ -5,8 +5,6 @@ const Nav = styled.div`
     background: ${props => props.dark ? "grey" : "white"};
     `;
 
-
-
 WireNavBar.defaultProps = {
     dark: false
 }

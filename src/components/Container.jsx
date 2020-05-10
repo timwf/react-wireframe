@@ -2,8 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 
 const StylaedCont = styled.div`
-    color: ${props => props.dark ? "white" : "black"};
-    margin: 0% ${props => props.margin};
+
     `;
 
 Container.defaultProps = {
@@ -12,7 +11,7 @@ Container.defaultProps = {
 
 function Container(props) {
     return (
-    <StylaedCont margin={props.margin}>
+    <StylaedCont className="container-main" margin={props.margin}>
           {props.children}
     </StylaedCont>    
     )
