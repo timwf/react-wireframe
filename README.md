@@ -5,24 +5,6 @@
 Create wire frames in record time with reusable components library
 
 
-### Button
-
-![Image of button](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/button.png)
-
-Code -
-
-       <Button primary btnName="Contact"/>
-       <Button btnName="About"/>
-       
-       
-Default Props -
-
-        Button.defaultProps = {
-            btnName: "Button",
-            primary: false  
-        }
-
-
 ## Nav Bar
 ![Image of nav](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/navbar.png)
 
@@ -53,7 +35,6 @@ Default Props -
        </WireNavBar>
        
 
-
 #### Nav Bar Logo
 
     WireNavbarLogo.defaultProps = {
@@ -68,24 +49,7 @@ Default Props -
         dark: false  
     }
 
-
-### Media Placeholders
-
-![Image of media placeholder](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/media-placeholder.png)
-
-    <Container>
-      <WireRow>
-        <WireCol >
-        <MediaPlaceholder />
-        </WireCol>  
-        <WireCol >
-        <MediaPlaceholder video caption="A caption if you want"/>
-        </WireCol>   
-      </WireRow>
-    </Container>
-
-
-### Text Placeholder
+## Text Placeholder
 
 ![Image of media placeholder](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/text-placeholder.png)
 
@@ -102,3 +66,40 @@ Default Props -
         </WireCol>  
       </WireRow>
     </Container>
+
+
+## Media Placeholders
+
+![Image of media placeholder](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/media-placeholder.png)
+
+    <Container>
+      <WireRow>
+        <WireCol >
+        <MediaPlaceholder />
+        </WireCol>  
+        <WireCol >
+        <MediaPlaceholder video caption="A caption if you want"/>
+        </WireCol>   
+      </WireRow>
+    </Container>
+
+
+### Button
+
+![Image of button](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/button.png)
+
+Code -
+
+       <Button primary btnName="Contact"/>
+       <Button btnName="About"/>
+       
+       
+Default Props -
+
+        Button.defaultProps = {
+            btnName: "Button",
+            primary: false  
+        }
+
+
+
