@@ -69,7 +69,7 @@ Default Props -
     }
 
 
-#### Media Placeholders
+### Media Placeholders
 
 ![Image of media placeholder](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/media-placeholder.png)
 
@@ -81,5 +81,24 @@ Default Props -
         <WireCol >
         <MediaPlaceholder video caption="A caption if you want"/>
         </WireCol>   
+      </WireRow>
+    </Container>
+
+
+### Text Placeholder
+
+![Image of media placeholder](https://github.com/timwf/react-wireframe/blob/master/src/demo-images/text-placeholder.png)
+
+    <Container>
+      <WireRow>
+        <WireCol >
+          <TextPlaceholder paraLines={10}/>
+        </WireCol>  
+        <WireCol >
+         <TextPlaceholder headerLines={1} paraLines={7}/>
+        </WireCol>  
+        <WireCol >
+          <TextPlaceholder headerLines={3} paraLines={4}/>
+        </WireCol>  
       </WireRow>
     </Container>
