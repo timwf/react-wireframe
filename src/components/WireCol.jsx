@@ -9,7 +9,10 @@ function WireCol(props) {
     console.log(props);
     
     return (
-        <StyledCol width={props.width} className="wire-col">
+        <StyledCol 
+            width={props.width} 
+            className={'wire-col ' + props.className}
+        >
             {props.children}
         </StyledCol>
  

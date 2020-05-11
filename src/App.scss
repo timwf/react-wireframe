@@ -44,12 +44,12 @@ body{
 
 .media-container{
     width: 100%;
-    padding-bottom: 50%;
+    padding-bottom: 100%;
     background-color: grey;
     border-radius: 4px;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 10%;
+    background-size: 20%;
     position: relative;
     margin: 0.09rem;
 
@@ -103,4 +103,8 @@ body{
 
 .mt5{
     margin-top: 5rem;
+}
+
+.margin-auto{
+    margin: auto;
 }
