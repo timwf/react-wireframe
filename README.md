@@ -115,12 +115,12 @@ height | string | false | Sets heigth of images * eg "height="100px" *
 Your layout can be mobile responsive by adding prop 'mobileWidth="- your percentage -%"', this will override any widths set bellow 
 768px screen width (see example above)
 
-Props should be passed into <WireCol> and include the following -
+Props should be passed into WireCol and include the following -
 
 Props Name | Type | Default Value | Description
 --- | --- | --- | ---
-width | string | n/a | Sets <WireCol> width to % set (remaining <WireCols> in <WireRow> will spread evenly) example: <WireCol width="60%">.
-mobileWidth | string | n/a | Will set width of <WireCol> to % on screens narrower than 768px. If width prop already set prop 'mobileWidth' will override at 768px
+width | string | n/a | Sets <WireCol> width to % set (remaining WireCols in <WireRow> will spread evenly) example: WireCol width="60%".
+mobileWidth | string | n/a | Will set width of WireCol to % on screens narrower than 768px. If width prop already set prop 'mobileWidth' will override at 768px
 
 
 ## Text Placeholder
