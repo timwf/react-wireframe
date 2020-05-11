@@ -31,8 +31,8 @@ function App() {
 
 
   
-    <Container>
-    <MediaPlaceholder video caption="I am a caption" />
+    <Container className="margtop-5">
+    <MediaPlaceholder height="400px" video caption="I am a caption" />
     </Container>
 
     <Container>
@@ -53,21 +53,49 @@ function App() {
 
     <Container>
       <WireRow>
-      <WireCol>
-       <MediaPlaceholder image caption="I am a caption" />
+        <WireCol width="50%" mobileWidth="50%">
+          <MediaPlaceholder height="200px" image caption="I am a caption" />
         </WireCol>
-        <WireCol>
-        <MediaPlaceholder avitar round/>
+        <WireCol mobileWidth="50%">
+          <MediaPlaceholder avitar round/>
         </WireCol>
-        <WireCol className="margin-auto"> 
-        <MediaPlaceholder  video height="100px" caption="Another Caption" />
+        <WireCol className="margin-auto" mobileWidth="50%"> 
+          <MediaPlaceholder  video height="100px" caption="Another Caption" />
         </WireCol>
-        <WireCol>
-        <MediaPlaceholder image round />
-        </WireCol>
-      
+        <WireCol width="25%" mobileWidth="50%">
+          <MediaPlaceholder  round />
+        </WireCol>      
       </WireRow>
-      <TextPlaceholder headerLines={3} paraLines={20}/>
+    </Container>
+
+    <Container className="margtop-5">
+    <h3 className="margin-auto">Mobile</h3>
+      <WireRow className="margtop-1">
+      <WireCol mobileWidth="100%">
+          <MediaPlaceholder avitar  round />
+        </WireCol>   
+        <WireCol className="margin-auto" width="70%">
+            <TextPlaceholder headerLines={2} paraLines={3}/>
+        </WireCol>   
+      </WireRow>
+    </Container>
+
+    <Container className="margtop-1">
+ 
+      <WireRow>
+        <WireCol  width="50%" mobileWidth="100%">
+            1 of 4
+        </WireCol>   
+        <WireCol >
+            2 of 4
+        </WireCol>   
+        <WireCol width="50%">
+            3 of 4
+        </WireCol>   
+        <WireCol >
+            4 of 4
+        </WireCol>  
+      </WireRow>
     </Container>
 
 

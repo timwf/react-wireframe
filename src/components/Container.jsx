@@ -10,8 +10,10 @@ Container.defaultProps = {
 }
 
 function Container(props) {
+    console.log(props);
+    
     return (
-    <StylaedCont className="container-main" margin={props.margin}>
+    <StylaedCont className={'container-main ' + props.className}>
           {props.children}
     </StylaedCont>    
     )
